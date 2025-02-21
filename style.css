@@ -111,3 +111,49 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+#bottom{
+    height: 380px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5px;
+    /* display: flex;
+    flex-wrap: nowrap;
+    gap: 30px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    margin-right: 30px;
+    position: relative;
+    /* flex-shrink: 0; */
+    display: inline-block;
+    height: 100%;
+    width: 320px;
+    background-color: royalblue;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    overflow: hidden;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
